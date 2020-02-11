@@ -5,12 +5,12 @@ with open("README.md", "r") as f:
 
 
 setuptools.setup(
-    name="yourproject"
+    name="game-01"
     version="0.0.1",
-    author="your name",
-    author_email="your@email.com",
-    url="https://github.com/yourusername/yourproject",
-    description="what does yourproject do?",
+    author="Daniel",
+    author_email="djmonwork@gmail.com",
+    url="https://github.com/Djmon07/game-1",
+    description="Start to a new adventure game just waiting to be descovered",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
@@ -19,4 +19,3 @@ setuptools.setup(
     tests_require=['pytest'],
     python_requires='>=3.6',
 )
-
